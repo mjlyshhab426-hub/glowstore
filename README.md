@@ -22,9 +22,9 @@
 
 ## ⬇ التحميل
 
-[تحميل أحدث إصدار](https://github.com/shihabmajli/glowstore/releases/latest)
+[تحميل أحدث إصدار](https://github.com/mjlyshhab426-hub/glowstore/releases/latest)
 
 ## 📞 التواصل
 
 - المطور: شهاب مجلي
-- GitHub: [shihabmajli/glowstore](https://github.com/shihabmajli/glowstore)
+- GitHub: [mjlyshhab426-hub/glowstore](https://github.com/mjlyshhab426-hub/glowstore)

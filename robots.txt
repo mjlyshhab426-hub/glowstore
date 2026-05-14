@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://shihabmajli.github.io/glowstore/sitemap.xml
+Sitemap: https://mjlyshhab426-hub.github.io/glowstore/sitemap.xml
