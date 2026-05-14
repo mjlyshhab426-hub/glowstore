@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shihabmajli.github.io/glowstore/sitemap.xml
