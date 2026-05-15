@@ -1,8 +1,12 @@
-# ترفة ستور شهاب عبدالله مجلي 🏪
+# 🏪 ترفة ستور شهاب عبدالله مجلي
 
 **نظام إدارة المبيعات والمخزون الاحترافي**
 
 نظام متكامل لإدارة المتاجر والمبيعات والمخزون بواجهة عربية سهلة واحترافية.
+
+> 🌐 **الموقع الرسمي:** [shehab-store.netlify.app](https://shehab-store.netlify.app)
+
+---
 
 ## ✨ المميزات
 
@@ -28,4 +32,5 @@
 
 - المطور: المهندس شهاب عبدالله حسن مجلي
 - GitHub: [mjlyshhab426-hub/glowstore](https://github.com/mjlyshhab426-hub/glowstore)
+- الموقع: [shehab-store.netlify.app](https://shehab-store.netlify.app)
 - البريد: mjlyshhab426@gmail.com
