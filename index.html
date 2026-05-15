@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    <!-- Google tag (gtag.js) - انسخ الكود من analytics.google.com واستبدل G-XXXXXXXXXX برقمك الحقيقي -->
+    <!-- Google tag (gtag.js) - أضف كود Google Analytics هنا بعد الحصول على المعرف -->
     <!--
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
     <script>
@@ -15,28 +15,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ترفة ستور شهاب عبدالله مجلي | نظام إدارة المبيعات والمخزون الاحترافي</title>
-    <meta name="description" content="ترفة ستور شهاب عبدالله مجلي: نظام إدارة مبيعات ومخزون احترافي. نقاط بيع POS، إدارة المخزون، الفواتير، التقارير، والعملاء. برنامج محاسبي متكامل للمتاجر.">
-    <meta name="keywords" content="ترفة ستور, شهاب عبدالله مجلي, نظام إدارة مبيعات, برنامج مخزون, نقاط بيع, POS, إدارة المتاجر, برنامج محاسبي, ERP, برنامج كاشير">
+    <meta name="description" content="ترفة ستور شهاب عبدالله مجلي: نظام ERP و POS متكامل لإدارة المبيعات والمخزون والعملاء. برنامج محاسبي احترافي للمتاجر والشركات.">
+    <meta name="keywords" content="ترفة ستور, شهاب عبدالله مجلي, نظام إدارة مبيعات, برنامج مخزون, نقاط بيع, POS, ERP, برنامج محاسبي, برنامج كاشير, إدارة المتاجر">
     <meta name="author" content="شهاب عبدالله حسن مجلي">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://glowstore.netlify.app">
+    <link rel="canonical" href="https://shehab-store.netlify.app">
 
-    <!-- Open Graph / Facebook -->
+    <!-- Open Graph -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://glowstore.netlify.app">
-    <meta property="og:title" content="ترفة ستور شهاب عبدالله مجلي - نظام إدارة المبيعات والمخزون الاحترافي">
-    <meta property="og:description" content="ترفة ستور: برنامج إدارة مبيعات ومخزون احترافي مع تقارير متقدمة وواجهة عربية سهلة.">
-    <meta property="og:image" content="https://glowstore.netlify.app/preview.png">
+    <meta property="og:url" content="https://shehab-store.netlify.app">
+    <meta property="og:title" content="ترفة ستور شهاب عبدالله مجلي - نظام إدارة المبيعات والمخزون">
+    <meta property="og:description" content="نظام ERP و POS متكامل لإدارة المبيعات والمخزون والعملاء.">
+    <meta property="og:image" content="https://shehab-store.netlify.app/images/main_dashboard.png">
     <meta property="og:locale" content="ar_AR">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://glowstore.netlify.app">
-    <meta name="twitter:title" content="ترفة ستور شهاب عبدالله مجلي - نظام إدارة المبيعات والمخزون الاحترافي">
-    <meta name="twitter:description" content="ترفة ستور: برنامج إدارة مبيعات ومخزون احترافي مع تقارير متقدمة وواجهة عربية سهلة.">
-    <meta name="twitter:image" content="https://glowstore.netlify.app/preview.png">
+    <meta name="twitter:url" content="https://shehab-store.netlify.app">
+    <meta name="twitter:title" content="ترفة ستور شهاب عبدالله مجلي - نظام إدارة المبيعات والمخزون">
+    <meta name="twitter:description" content="نظام ERP و POS متكامل لإدارة المبيعات والمخزون والعملاء.">
+    <meta name="twitter:image" content="https://shehab-store.netlify.app/images/main_dashboard.png">
 
-    <!-- Schema.org structured data -->
+    <!-- Schema.org -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -44,7 +44,7 @@
         "name": "ترفة ستور شهاب عبدالله مجلي",
         "operatingSystem": "Windows",
         "applicationCategory": "BusinessApplication",
-        "description": "نظام إدارة مبيعات ومخزون احترافي للمتاجر",
+        "description": "نظام ERP و POS متكامل لإدارة المبيعات والمخزون والعملاء",
         "author": {
             "@type": "Person",
             "name": "شهاب عبدالله حسن مجلي"
@@ -57,259 +57,968 @@
     }
     </script>
 
+    <!-- Font Awesome 6 (Free) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
-            font-family: 'Segoe UI', 'Tahoma', 'Arial', sans-serif;
-            background: linear-gradient(135deg, #f5f0eb 0%, #e8ddd0 100%);
-            color: #333;
+            font-family: 'Tajawal', 'Segoe UI', sans-serif;
+            background: #faf8f5;
+            color: #2d2d2d;
             line-height: 1.8;
+            overflow-x: hidden;
         }
-        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
 
-        header {
-            background: linear-gradient(135deg, #8B6914 0%, #AA825A 50%, #C4A265 100%);
-            color: white;
-            padding: 60px 0 40px;
-            text-align: center;
+        ::selection {
+            background: #C9A84C;
+            color: #fff;
         }
-        header h1 { font-size: 3em; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
-        header p { font-size: 1.3em; opacity: 0.95; }
-        .header-icon { font-size: 5em; margin-bottom: 15px; display: block; }
 
-        .btn {
-            display: inline-block;
-            padding: 16px 40px;
-            background: #fff;
-            color: #8B6914;
-            text-decoration: none;
-            border-radius: 50px;
-            font-weight: bold;
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(15, 23, 36, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(201, 168, 76, 0.15);
+            padding: 0 24px;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: #C9A84C;
             font-size: 1.2em;
-            margin: 10px;
+            font-weight: 800;
+            text-decoration: none;
+        }
+
+        .nav-logo i {
+            font-size: 1.5em;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 28px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: rgba(255,255,255,0.7);
+            text-decoration: none;
+            font-size: 0.95em;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #C9A84C;
+        }
+
+        .nav-cta {
+            background: #C9A84C;
+            color: #0f1724 !important;
+            padding: 8px 22px;
+            border-radius: 8px;
+            font-weight: 700 !important;
+            font-size: 0.9em !important;
             transition: all 0.3s;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
         }
-        .btn:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(0,0,0,0.3); }
-        .btn-download { background: #2ecc71; color: white; }
-        .btn-download:hover { background: #27ae60; }
 
-        .features {
-            padding: 60px 0;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
+        .nav-cta:hover {
+            background: #dbb95a;
+            transform: translateY(-1px);
         }
-        .feature-card {
-            background: white;
-            border-radius: 20px;
-            padding: 30px;
-            box-shadow: 0 5px 25px rgba(0,0,0,0.08);
-            transition: 0.3s;
-            text-align: center;
-        }
-        .feature-card:hover { transform: translateY(-5px); box-shadow: 0 8px 30px rgba(0,0,0,0.15); }
-        .feature-icon { font-size: 3em; margin-bottom: 15px; }
-        .feature-card h3 { color: #8B6914; margin-bottom: 10px; font-size: 1.3em; }
-        .feature-card p { color: #666; font-size: 0.95em; }
 
-        .screenshots {
-            padding: 40px 0;
-            text-align: center;
-        }
-        .screenshots h2 { font-size: 2em; color: #8B6914; margin-bottom: 30px; }
-        .screenshot-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-        }
-        .screenshot-item {
-            background: white;
-            border-radius: 15px;
-            padding: 10px;
-            box-shadow: 0 3px 15px rgba(0,0,0,0.1);
-        }
-        .screenshot-item img { width: 100%; border-radius: 10px; }
-        .screenshot-placeholder {
-            width: 100%;
-            height: 180px;
-            background: linear-gradient(135deg, #C4A265, #8B6914);
-            border-radius: 10px;
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0f1724 0%, #1a2440 40%, #2a1f2e 100%);
             display: flex;
             align-items: center;
             justify-content: center;
-            color: white;
-            font-size: 1.2em;
+            text-align: center;
+            padding: 120px 24px 80px;
+            position: relative;
+            overflow: hidden;
         }
 
-        .download-section {
-            background: linear-gradient(135deg, #2c3e50, #34495e);
-            color: white;
-            padding: 60px 0;
-            text-align: center;
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle at 70% 30%, rgba(201,168,76,0.08) 0%, transparent 60%),
+                        radial-gradient(circle at 30% 70%, rgba(201,168,76,0.05) 0%, transparent 50%);
+            animation: heroGlow 15s ease-in-out infinite alternate;
         }
-        .download-section h2 { font-size: 2.2em; margin-bottom: 15px; }
-        .download-section p { font-size: 1.1em; opacity: 0.9; margin-bottom: 30px; }
-        .download-info {
-            background: rgba(255,255,255,0.1);
-            border-radius: 15px;
-            padding: 20px;
-            margin: 20px auto;
-            max-width: 500px;
-            font-size: 0.95em;
-        }
-        .download-info span { display: block; margin: 5px 0; }
 
-        footer {
-            background: #1a1a2e;
-            color: #ccc;
-            padding: 30px 0;
-            text-align: center;
-            font-size: 0.9em;
+        @keyframes heroGlow {
+            0% { transform: translate(0, 0); }
+            100% { transform: translate(-5%, -5%); }
         }
-        footer a { color: #C4A265; text-decoration: none; }
-        footer a:hover { text-decoration: underline; }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 900px;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: rgba(201,168,76,0.15);
+            border: 1px solid rgba(201,168,76,0.3);
+            color: #C9A84C;
+            padding: 8px 24px;
+            border-radius: 50px;
+            font-size: 0.85em;
+            font-weight: 500;
+            margin-bottom: 30px;
+            letter-spacing: 1px;
+        }
+
+        .hero h1 {
+            font-size: 3.5em;
+            font-weight: 900;
+            color: #fff;
+            margin-bottom: 10px;
+            line-height: 1.3;
+        }
+
+        .hero h1 span {
+            background: linear-gradient(135deg, #C9A84C, #e8c96a);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-subtitle {
+            font-size: 1.3em;
+            color: rgba(255,255,255,0.6);
+            margin-bottom: 16px;
+            font-weight: 500;
+        }
+
+        .hero-desc {
+            font-size: 1.05em;
+            color: rgba(255,255,255,0.5);
+            max-width: 650px;
+            margin: 0 auto 40px;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 16px 36px;
+            border-radius: 12px;
+            font-size: 1.05em;
+            font-weight: 700;
+            text-decoration: none;
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+            font-family: 'Tajawal', sans-serif;
+        }
+
+        .btn-primary {
+            background: #C9A84C;
+            color: #0f1724;
+        }
+
+        .btn-primary:hover {
+            background: #dbb95a;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(201,168,76,0.3);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: #fff;
+            border: 2px solid rgba(255,255,255,0.2);
+        }
+
+        .btn-outline:hover {
+            border-color: #C9A84C;
+            color: #C9A84C;
+            transform: translateY(-2px);
+        }
+
+        .hero-stats {
+            display: flex;
+            gap: 50px;
+            justify-content: center;
+            margin-top: 60px;
+            padding-top: 40px;
+            border-top: 1px solid rgba(255,255,255,0.08);
+        }
+
+        .hero-stat {
+            text-align: center;
+        }
+
+        .hero-stat-number {
+            font-size: 2em;
+            font-weight: 900;
+            color: #C9A84C;
+        }
+
+        .hero-stat-label {
+            font-size: 0.85em;
+            color: rgba(255,255,255,0.4);
+            font-weight: 500;
+        }
+
+        /* Section Common */
+        section {
+            padding: 90px 24px;
+        }
+
+        .section-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-tag {
+            display: inline-block;
+            background: rgba(201,168,76,0.1);
+            color: #C9A84C;
+            padding: 6px 20px;
+            border-radius: 50px;
+            font-size: 0.85em;
+            font-weight: 700;
+            margin-bottom: 16px;
+            letter-spacing: 1px;
+        }
 
         .section-title {
-            text-align: center;
-            font-size: 2.2em;
-            color: #8B6914;
-            padding: 40px 0 20px;
+            font-size: 2.5em;
+            font-weight: 900;
+            color: #0f1724;
+            margin-bottom: 12px;
         }
 
-        .requirements {
-            padding: 30px 0;
+        .section-desc {
+            font-size: 1.1em;
+            color: #6b7280;
+            max-width: 600px;
+            margin: 0 auto;
         }
-        .requirements ul {
-            list-style: none;
-            text-align: center;
+
+        /* Features */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+            gap: 24px;
         }
-        .requirements li {
-            display: inline-block;
-            background: white;
-            margin: 8px;
-            padding: 10px 25px;
-            border-radius: 30px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+
+        .feature-card {
+            background: #fff;
+            border-radius: 20px;
+            padding: 36px 32px;
+            transition: all 0.4s;
+            border: 1px solid rgba(0,0,0,0.04);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #C9A84C, #e8c96a);
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.4s;
+        }
+
+        .feature-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .feature-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.08);
+        }
+
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, rgba(201,168,76,0.12), rgba(201,168,76,0.05));
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .feature-icon i {
+            font-size: 1.6em;
+            color: #C9A84C;
+        }
+
+        .feature-card h3 {
+            font-size: 1.2em;
+            font-weight: 800;
+            color: #0f1724;
+            margin-bottom: 10px;
+        }
+
+        .feature-card p {
+            color: #6b7280;
             font-size: 0.95em;
         }
 
+        /* Screenshots Gallery */
+        .gallery {
+            background: #fff;
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery-item {
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+            transition: all 0.4s;
+            cursor: pointer;
+            position: relative;
+            background: #f8f6f3;
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 40px rgba(0,0,0,0.12);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.5s;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+
+        .gallery-label {
+            padding: 14px 18px;
+            font-weight: 700;
+            font-size: 0.9em;
+            color: #0f1724;
+            background: #fff;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .gallery-label i {
+            color: #C9A84C;
+        }
+
+        /* Requirements */
+        .requirements-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+            justify-content: center;
+        }
+
+        .req-item {
+            background: #fff;
+            border: 1px solid rgba(0,0,0,0.06);
+            padding: 14px 28px;
+            border-radius: 12px;
+            font-weight: 500;
+            font-size: 0.95em;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.3s;
+        }
+
+        .req-item:hover {
+            border-color: #C9A84C;
+            box-shadow: 0 4px 15px rgba(201,168,76,0.1);
+        }
+
+        .req-item i {
+            color: #C9A84C;
+            font-size: 1.1em;
+        }
+
+        /* Download Section */
+        .download {
+            background: linear-gradient(135deg, #0f1724 0%, #1a2440 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .download::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 80% 50%, rgba(201,168,76,0.06) 0%, transparent 60%);
+        }
+
+        .download .section-container {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+        }
+
+        .download .section-title {
+            color: #fff;
+        }
+
+        .download .section-desc {
+            color: rgba(255,255,255,0.5);
+        }
+
+        .download-version {
+            color: rgba(255,255,255,0.4);
+            font-size: 1em;
+            margin-bottom: 30px;
+        }
+
+        .download-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 550px;
+            margin: 0 auto 20px;
+        }
+
+        .download-card .btn {
+            font-size: 1.2em;
+            padding: 18px 50px;
+        }
+
+        .download-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .download-info span {
+            background: rgba(255,255,255,0.06);
+            padding: 8px 18px;
+            border-radius: 8px;
+            color: rgba(255,255,255,0.6);
+            font-size: 0.85em;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .download-info span i {
+            color: #C9A84C;
+        }
+
+        /* Footer */
+        footer {
+            background: #080d17;
+            padding: 50px 24px 30px;
+            text-align: center;
+        }
+
+        footer .footer-brand {
+            font-size: 1.3em;
+            font-weight: 800;
+            color: #C9A84C;
+            margin-bottom: 6px;
+        }
+
+        footer .footer-dev {
+            color: rgba(255,255,255,0.4);
+            font-size: 0.95em;
+            margin-bottom: 20px;
+        }
+
+        footer .footer-links {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        footer .footer-links a {
+            color: rgba(255,255,255,0.4);
+            text-decoration: none;
+            font-size: 0.9em;
+            transition: color 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        footer .footer-links a:hover {
+            color: #C9A84C;
+        }
+
+        footer .footer-copy {
+            color: rgba(255,255,255,0.2);
+            font-size: 0.8em;
+            border-top: 1px solid rgba(255,255,255,0.05);
+            padding-top: 20px;
+        }
+
+        /* Lightbox */
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.92);
+            z-index: 2000;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+            cursor: pointer;
+        }
+
+        .lightbox.active {
+            display: flex;
+        }
+
+        .lightbox img {
+            max-width: 95%;
+            max-height: 90vh;
+            border-radius: 12px;
+            box-shadow: 0 20px 80px rgba(0,0,0,0.5);
+        }
+
+        .lightbox-close {
+            position: absolute;
+            top: 20px;
+            left: 30px;
+            color: #fff;
+            font-size: 2em;
+            cursor: pointer;
+            opacity: 0.6;
+            transition: opacity 0.3s;
+        }
+
+        .lightbox-close:hover {
+            opacity: 1;
+        }
+
+        /* Scroll to top */
+        .scroll-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background: #C9A84C;
+            color: #0f1724;
+            border: none;
+            border-radius: 50%;
+            font-size: 1.2em;
+            cursor: pointer;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s;
+            z-index: 999;
+            box-shadow: 0 4px 20px rgba(201,168,76,0.3);
+        }
+
+        .scroll-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .scroll-top:hover {
+            transform: translateY(-3px);
+        }
+
+        /* Responsive */
         @media (max-width: 768px) {
-            header h1 { font-size: 2em; }
-            header p { font-size: 1em; }
-            .features { grid-template-columns: 1fr; }
+            .hero h1 {
+                font-size: 2em;
+            }
+
+            .hero-subtitle {
+                font-size: 1em;
+            }
+
+            .hero-stats {
+                gap: 24px;
+                flex-wrap: wrap;
+            }
+
+            .section-title {
+                font-size: 1.8em;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .gallery-grid {
+                grid-template-columns: 1fr;
+            }
+
+            nav {
+                padding: 0 16px;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .download-card {
+                padding: 24px;
+            }
+
+            .lightbox {
+                padding: 16px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 1.6em;
+            }
+
+            .btn {
+                padding: 14px 24px;
+                font-size: 0.95em;
+            }
+        }
+
+        /* Smooth scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* animation on scroll helper */
+        .fade-up {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease;
+        }
+
+        .fade-up.visible {
+            opacity: 1;
+            transform: translateY(0);
         }
     </style>
 </head>
 <body>
 
-<header>
-    <div class="container">
-        <span class="header-icon">🏪</span>
-        <h1>ترفة ستور شهاب عبدالله مجلي</h1>
-        <p>نظام إدارة المبيعات والمخزون الاحترافي</p>
-        <div style="margin-top: 30px;">
-            <a href="#download" class="btn btn-download">⬇ تحميل البرنامج</a>
-            <a href="#features" class="btn">تعرف على المميزات</a>
+<!-- Navigation -->
+<nav>
+    <a href="#" class="nav-logo">
+        <i class="fa-solid fa-store"></i>
+        ترفة ستور
+    </a>
+    <ul class="nav-links">
+        <li><a href="#features">المميزات</a></li>
+        <li><a href="#gallery">معرض الصور</a></li>
+        <li><a href="#requirements">المتطلبات</a></li>
+        <li><a href="#download" class="nav-cta"><i class="fa-solid fa-download"></i> تحميل</a></li>
+    </ul>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+    <div class="hero-content">
+        <div class="hero-badge">
+            <i class="fa-solid fa-crown"></i> نظام ERP محترف
+        </div>
+        <h1>ترفة ستور <span>شهاب عبدالله مجلي</span></h1>
+        <p class="hero-subtitle">نظام إدارة المبيعات والمخزون الاحترافي</p>
+        <p class="hero-desc">
+            نظام متكامل بمعايير مؤسسية لإدارة المبيعات، المخزون، العملاء، الموردين، والتقارير المالية
+            بواجهة عربية احترافية وسهلة الاستخدام.
+        </p>
+        <div class="hero-buttons">
+            <a href="#download" class="btn btn-primary">
+                <i class="fa-solid fa-download"></i> تحميل البرنامج
+            </a>
+            <a href="#gallery" class="btn btn-outline">
+                <i class="fa-solid fa-images"></i> معرض الصور
+            </a>
+        </div>
+        <div class="hero-stats">
+            <div class="hero-stat">
+                <div class="hero-stat-number">10+</div>
+                <div class="hero-stat-label">واجهات رئيسية</div>
+            </div>
+            <div class="hero-stat">
+                <div class="hero-stat-number">100%</div>
+                <div class="hero-stat-label">برمجة يدوية</div>
+            </div>
+            <div class="hero-stat">
+                <div class="hero-stat-number">نظام</div>
+                <div class="hero-stat-label">Windows</div>
+            </div>
         </div>
     </div>
-</header>
+</section>
 
-<main>
-    <div class="container">
-        <h2 class="section-title" id="features">✨ مميزات البرنامج</h2>
-        <div class="features">
-            <div class="feature-card">
-                <div class="feature-icon">🛒</div>
+<!-- Features -->
+<section id="features">
+    <div class="section-container">
+        <div class="section-header fade-up">
+            <div class="section-tag"><i class="fa-solid fa-star"></i> مميزات البرنامج</div>
+            <h2 class="section-title">إدارة متكاملة لمتجرك</h2>
+            <p class="section-desc">كل الأدوات التي تحتاجها لإدارة مبيعاتك ومخزونك في برنامج واحد</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card fade-up">
+                <div class="feature-icon"><i class="fa-solid fa-cash-register"></i></div>
                 <h3>نظام نقاط بيع (POS)</h3>
-                <p>واجهة بيع سريعة وسهلة مع إضافة الأصناف والبحث الفوري وإنشاء الفواتير.</p>
+                <p>واجهة بيع سريعة وسهلة مع إضافة الأصناف والبحث الفوري وإنشاء الفواتير بدقة عالية.</p>
             </div>
-            <div class="feature-card">
-                <div class="feature-icon">📦</div>
+            <div class="feature-card fade-up">
+                <div class="feature-icon"><i class="fa-solid fa-boxes-stacked"></i></div>
                 <h3>إدارة المخزون</h3>
-                <p>تتبع المخزون، تنبيهات النواقص، تواريخ انتهاء الصلاحية، وإدارة الأصناف.</p>
+                <p>تتبع المخزون لحظيًا، تنبيهات النواقص، تواريخ انتهاء الصلاحية، وإدارة الأصناف بكفاءة.</p>
             </div>
-            <div class="feature-card">
-                <div class="feature-icon">👥</div>
+            <div class="feature-card fade-up">
+                <div class="feature-icon"><i class="fa-solid fa-users"></i></div>
                 <h3>إدارة العملاء والموردين</h3>
-                <p>حسابات العملاء والموردين، كشوفات حساب، وسجل المدفوعات.</p>
+                <p>حسابات العملاء والموردين مع كشوفات حساب مفصلة وسجل المدفوعات والديون.</p>
             </div>
-            <div class="feature-card">
-                <div class="feature-icon">📊</div>
-                <h3>التقارير</h3>
-                <p>تقارير المبيعات والمشتريات والأرباح مع إمكانية التصدير والطباعة.</p>
+            <div class="feature-card fade-up">
+                <div class="feature-icon"><i class="fa-solid fa-chart-line"></i></div>
+                <h3>التقارير المالية</h3>
+                <p>تقارير ديناميكية للمبيعات والمشتريات والأرباح مع إمكانية التصدير والطباعة.</p>
             </div>
-            <div class="feature-card">
-                <div class="feature-icon">💰</div>
+            <div class="feature-card fade-up">
+                <div class="feature-icon"><i class="fa-solid fa-sack-dollar"></i></div>
                 <h3>إدارة الصندوق</h3>
-                <p>تتبع الإيرادات والمصروفات، وإدارة الخزينة اليومية.</p>
+                <p>تتبع الإيرادات والمصروفات اليومية وإدارة الخزينة بشكل دقيق ومنظم.</p>
             </div>
-            <div class="feature-card">
-                <div class="feature-icon">🔐</div>
-                <h3>صلاحيات المستخدمين</h3>
-                <p>نظام صلاحيات متكامل (مدير - كاشير) مع التحكم الكامل.</p>
+            <div class="feature-card fade-up">
+                <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                <h3>صلاحيات وأمان</h3>
+                <p>نظام صلاحيات متكامل للمستخدمين مع تشفير البيانات والحماية من الاختراق.</p>
             </div>
-        </div>
-
-        <h2 class="section-title">🖼 صور من البرنامج</h2>
-        <div class="screenshots">
-            <div class="screenshot-grid">
-                <div class="screenshot-item">
-                    <div class="screenshot-placeholder">📸 شاشة تسجيل الدخول</div>
-                </div>
-                <div class="screenshot-item">
-                    <div class="screenshot-placeholder">📸 لوحة التحكم</div>
-                </div>
-                <div class="screenshot-item">
-                    <div class="screenshot-placeholder">📸 إدارة المخزون</div>
-                </div>
-                <div class="screenshot-item">
-                    <div class="screenshot-placeholder">📸 نقطة البيع</div>
-                </div>
-            </div>
-        </div>
-
-        <h2 class="section-title">💻 متطلبات التشغيل</h2>
-        <div class="requirements">
-            <ul>
-                <li>🪟 Windows 7 / 8 / 10 / 11</li>
-                <li>⚙ .NET Framework 4.7.2</li>
-                <li>💾 500 MB قرص صلب</li>
-                <li>🧠 4 GB RAM</li>
-                <li>🗄 SQL Server أو SQL Express</li>
-            </ul>
         </div>
     </div>
+</section>
 
-    <div class="download-section" id="download">
-        <div class="container">
-            <h2>⬇ تحميل البرنامج</h2>
-            <p>الإصدار: v1.0.0 | الحجم: ~54 MB</p>
-            <a href="https://github.com/mjlyshhab426-hub/glowstore/releases/latest/download/GlowStore_Setup_v1.0.0.exe" class="btn btn-download" style="font-size:1.5em;">
-                ⬇ تحميل ترفة ستور
+<!-- Gallery -->
+<section id="gallery" class="gallery">
+    <div class="section-container">
+        <div class="section-header fade-up">
+            <div class="section-tag"><i class="fa-solid fa-camera"></i> معرض الصور</div>
+            <h2 class="section-title">واجهات النظام</h2>
+            <p class="section-desc">لقطات شاشة حقيقية من البرنامج تُظهر الواجهات التي تم برمجتها يدويًا بالكامل</p>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item fade-up">
+                <img src="images/login_screen.png" alt="شاشة تسجيل الدخول" loading="lazy">
+                <div class="gallery-label"><i class="fa-solid fa-lock"></i> شاشة تسجيل الدخول</div>
+            </div>
+            <div class="gallery-item fade-up">
+                <img src="images/main_dashboard.png" alt="لوحة التحكم الرئيسية" loading="lazy">
+                <div class="gallery-label"><i class="fa-solid fa-gauge-high"></i> لوحة التحكم الرئيسية</div>
+            </div>
+            <div class="gallery-item fade-up">
+                <img src="images/sales_pos.png" alt="شاشة نقاط البيع" loading="lazy">
+                <div class="gallery-label"><i class="fa-solid fa-cart-shopping"></i> شاشة نقاط البيع (POS)</div>
+            </div>
+            <div class="gallery-item fade-up">
+                <img src="images/inventory_management.png" alt="إدارة المخزون" loading="lazy">
+                <div class="gallery-label"><i class="fa-solid fa-warehouse"></i> إدارة المخزون</div>
+            </div>
+            <div class="gallery-item fade-up">
+                <img src="images/customers_management.png" alt="إدارة العملاء" loading="lazy">
+                <div class="gallery-label"><i class="fa-solid fa-user-group"></i> إدارة العملاء</div>
+            </div>
+            <div class="gallery-item fade-up">
+                <img src="images/customer_statement.png" alt="كشف حساب عميل" loading="lazy">
+                <div class="gallery-label"><i class="fa-solid fa-file-invoice"></i> كشف حساب عميل</div>
+            </div>
+            <div class="gallery-item fade-up">
+                <img src="images/suppliers_management.png" alt="إدارة الموردين" loading="lazy">
+                <div class="gallery-label"><i class="fa-solid fa-truck"></i> إدارة الموردين</div>
+            </div>
+            <div class="gallery-item fade-up">
+                <img src="images/reports_dashboard.png" alt="التقارير" loading="lazy">
+                <div class="gallery-label"><i class="fa-solid fa-chart-bar"></i> التقارير</div>
+            </div>
+            <div class="gallery-item fade-up">
+                <img src="images/users_management.png" alt="إدارة المستخدمين" loading="lazy">
+                <div class="gallery-label"><i class="fa-solid fa-user-gear"></i> إدارة المستخدمين</div>
+            </div>
+            <div class="gallery-item fade-up">
+                <img src="images/system_settings.png" alt="إعدادات النظام" loading="lazy">
+                <div class="gallery-label"><i class="fa-solid fa-gears"></i> إعدادات النظام</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Requirements -->
+<section id="requirements">
+    <div class="section-container">
+        <div class="section-header fade-up">
+            <div class="section-tag"><i class="fa-solid fa-circle-info"></i> متطلبات التشغيل</div>
+            <h2 class="section-title">متطلبات النظام</h2>
+            <p class="section-desc">الحد الأدنى من المتطلبات لتشغيل البرنامج بكفاءة</p>
+        </div>
+        <div class="requirements-grid fade-up">
+            <div class="req-item"><i class="fa-brands fa-windows"></i> Windows 7 / 8 / 10 / 11</div>
+            <div class="req-item"><i class="fa-solid fa-gear"></i> .NET Framework 4.7.2</div>
+            <div class="req-item"><i class="fa-solid fa-hard-drive"></i> 500 MB مساحة حرة</div>
+            <div class="req-item"><i class="fa-solid fa-memory"></i> 4 GB RAM</div>
+            <div class="req-item"><i class="fa-solid fa-database"></i> SQL Server / SQL Express</div>
+        </div>
+    </div>
+</section>
+
+<!-- Download -->
+<section id="download" class="download">
+    <div class="section-container">
+        <div class="section-header fade-up">
+            <div class="section-tag" style="background:rgba(201,168,76,0.15);color:#C9A84C;"><i class="fa-solid fa-circle-down"></i> التحميل</div>
+            <h2 class="section-title">حمّل البرنامج الآن</h2>
+            <p class="section-desc">الإصدار: v1.0.0 | ~54 MB</p>
+        </div>
+        <div class="download-card fade-up">
+            <a href="https://github.com/mjlyshhab426-hub/glowstore/releases/latest/download/GlowStore_Setup_v1.0.0.exe" class="btn btn-primary" style="font-size:1.3em;">
+                <i class="fa-solid fa-download"></i> تحميل ترفة ستور
             </a>
             <div class="download-info">
-                <span>📦 ملف تثبيت احترافي (Setup.exe)</span>
-                <span>🔄 تثبيت سريع: Next → Next → Install</span>
-                <span>🖥 يعمل على جميع إصدارات Windows</span>
+                <span><i class="fa-solid fa-box"></i> ملف تثبيت احترافي</span>
+                <span><i class="fa-solid fa-bolt"></i> تثبيت سريع وسهل</span>
+                <span><i class="fa-solid fa-desktop"></i> يدعم كل Windows</span>
             </div>
-            <p style="margin-top:15px;font-size:0.9em;opacity:0.8;">
+            <p style="margin-top:20px;color:rgba(255,255,255,0.4);font-size:0.9em;">
                 بعد التحميل، شغّل الملف واتبع التعليمات. سيتم تثبيت البرنامج مع اختصار سطح المكتب.
             </p>
         </div>
     </div>
-</main>
+</section>
 
+<!-- Footer -->
 <footer>
-    <div class="container">
-        <p>ترفة ستور شهاب عبدالله مجلي © 2026 - جميع الحقوق محفوظة</p>
-        <p>تم التطوير بواسطة <strong>المهندس شهاب عبدالله حسن مجلي</strong></p>
-        <p style="margin-top:10px;font-size:0.8em;">
-            <a href="https://github.com/mjlyshhab426-hub/glowstore">GitHub</a> |
-            <a href="mailto:mjlyshhab426@gmail.com">اتصل بنا</a>
-        </p>
+    <div class="section-container">
+        <div class="footer-brand"><i class="fa-solid fa-store"></i> ترفة ستور شهاب عبدالله مجلي</div>
+        <div class="footer-dev">تم التطوير بواسطة المهندس <strong style="color:#C9A84C;">شهاب عبدالله حسن مجلي</strong></div>
+        <div class="footer-links">
+            <a href="https://github.com/mjlyshhab426-hub/glowstore"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="mailto:mjlyshhab426@gmail.com"><i class="fa-solid fa-envelope"></i> البريد الإلكتروني</a>
+            <a href="#"><i class="fa-solid fa-phone"></i> تواصل معي</a>
+        </div>
+        <div class="footer-copy">
+            ترفة ستور شهاب عبدالله مجلي © 2026 - جميع الحقوق محفوظة
+        </div>
     </div>
 </footer>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <span class="lightbox-close" onclick="closeLightbox()"><i class="fa-solid fa-xmark"></i></span>
+    <img id="lightbox-img" src="" alt="عرض الصورة">
+</div>
+
+<!-- Scroll to Top -->
+<button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<script>
+    // Lightbox
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+
+    document.querySelectorAll('.gallery-item img').forEach(img => {
+        img.addEventListener('click', function(e) {
+            e.stopPropagation();
+            lightboxImg.src = this.src;
+            lightbox.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
+    });
+
+    function closeLightbox() {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') closeLightbox();
+    });
+
+    // Scroll to Top Button
+    const scrollBtn = document.getElementById('scrollTop');
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > 400) {
+            scrollBtn.classList.add('visible');
+        } else {
+            scrollBtn.classList.remove('visible');
+        }
+    });
+
+    // Fade-up animation on scroll
+    const fadeEls = document.querySelectorAll('.fade-up');
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+        });
+    }, { threshold: 0.1 });
+
+    fadeEls.forEach(el => observer.observe(el));
+</script>
 
 </body>
 </html>

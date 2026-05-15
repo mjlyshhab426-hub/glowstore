@@ -14,7 +14,7 @@
    https://glowstore-random.netlify.app
 5. اذهب إلى Site Settings > Change site name:
    - اكتب اسم مثل: glowstore (أو أي اسم متاح)
-   - يصير الرابط: https://glowstore.netlify.app
+   - يصير الرابط: https://shehab-store.netlify.app
 
 --------------------------------------------------------------
   الخطوة 2: إضافة Google Analytics (اختياري لكن مفيد)
@@ -36,7 +36,7 @@
 1. اذهب إلى: https://search.google.com/search-console
 2. سجّل دخولك بنفس حساب Google
 3. اختار "URL prefix" وأدخل رابط موقعك:
-   https://glowstore.netlify.app
+   https://shehab-store.netlify.app
 4. راح يطلب منك التحقق من الملكية:
    - اختار "HTML tag" => راح يعطيك كود مثل:
      <meta name="google-site-verification" content="...">

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://glowstore.netlify.app/sitemap.xml
+Sitemap: https://shehab-store.netlify.app/sitemap.xml
