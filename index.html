@@ -25,12 +25,12 @@
     <meta property="og:url" content="https://shehab-store.netlify.app">
     <meta property="og:title" content="ترفة ستور شهاب عبدالله مجلي - نظام ERP و POS احترافي">
     <meta property="og:description" content="نظام ERP و POS متكامل لإدارة المبيعات والمخزون والعملاء.">
-    <meta property="og:image" content="https://raw.githubusercontent.com/mjlyshhab426-hub/glowstore/main/images/logo.jpg">
+    <meta property="og:image" content="https://raw.githubusercontent.com/mjlyshhab426-hub/glowstore/main/images/main_dashboard.png">
     <meta property="og:locale" content="ar_AR">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ترفة ستور شهاب عبدالله مجلي - نظام ERP و POS احترافي">
-    <meta name="twitter:image" content="https://raw.githubusercontent.com/mjlyshhab426-hub/glowstore/main/images/logo.jpg">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/mjlyshhab426-hub/glowstore/main/images/main_dashboard.png">
 
     <meta name="google-site-verification" content="0tWqGmRIsbqHOBKQPtt-BZkk6r77UfbkafYp2v_6F4o" />
     <meta name="msvalidate.01" content="75ACA0692206FECA8DF905C22F6D9852" />
@@ -362,35 +362,14 @@
 
         .hero-mockup {
             width: 100%;
-            max-width: 400px;
-            border-radius: 24px;
-            border: 2px solid var(--gold);
-            box-shadow: 0 0 60px rgba(201,168,76,0.15), var(--shadow);
-            transition: all 0.6s;
+            max-width: 520px;
+            border-radius: 16px;
+            border: 1px solid var(--border);
+            box-shadow: var(--shadow);
+            transition: transform 0.6s;
         }
         .hero-mockup:hover {
-            transform: translateY(-6px) scale(1.02);
-            box-shadow: 0 0 80px rgba(201,168,76,0.25), var(--shadow);
-        }
-
-        .hero-logo-wrap {
-            position: relative;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .hero-logo-wrap::before {
-            content: '';
-            position: absolute;
-            width: 110%;
-            height: 110%;
-            background: radial-gradient(circle, rgba(201,168,76,0.08) 0%, transparent 70%);
-            border-radius: 50%;
-            animation: logoPulse 4s ease-in-out infinite alternate;
-        }
-        @keyframes logoPulse {
-            0% { opacity: 0.5; transform: scale(1); }
-            100% { opacity: 1; transform: scale(1.05); }
+            transform: translateY(-6px);
         }
 
         /* ====== Section Headers ====== */
@@ -888,9 +867,7 @@
                 </div>
             </div>
             <div class="hero-visual fade-right">
-                <div class="hero-logo-wrap">
-                    <img src="https://raw.githubusercontent.com/mjlyshhab426-hub/glowstore/main/images/logo.jpg" alt="ترفة ستور شهاب عبدالله مجلي" class="hero-mockup" loading="lazy">
-                </div>
+                <img src="https://raw.githubusercontent.com/mjlyshhab426-hub/glowstore/main/images/main_dashboard.png" alt="ترفة ستور" class="hero-mockup" loading="lazy">
             </div>
         </div>
     </div>
